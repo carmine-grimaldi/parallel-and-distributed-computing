@@ -1,0 +1,104 @@
+PBS: qsub is running on ui-studenti.scope.unina.it
+PBS: originating queue is studenti
+PBS: executing queue is studenti
+PBS: working directory is /homes/DMA/PDC/2021/GRMCMN97S/Libreria3
+PBS: execution mode is PBS_BATCH
+PBS: job identifier is 3993697.torque02.scope.unina.it
+PBS: job name is libreria3
+PBS: node file is /var/spool/pbs/aux//3993697.torque02.scope.unina.it
+PBS: number of nodes is
+PBS: current home directory is /homes/DMA/PDC/2021/GRMCMN97S
+PBS: PATH = /usr/lib64/openmpi/1.2.7-gcc/bin:/usr/kerberos/bin:/opt/exp_soft/unina.it/intel/composer_xe_2013_sp1.3.174/bin/intel64:/opt/exp_soft/unina.it/intel/composer_xe_2013_sp1.3.174/mpirt/bin/intel64:/opt/exp_soft/unina.it/intel/composer_xe_2013_sp1.3.174/bin/intel64:/opt/exp_soft/unina.it/intel/composer_xe_2013_sp1.3.174/bin/intel64_mic:/opt/exp_soft/unina.it/intel/composer_xe_2013_sp1.3.174/debugger/gui/intel64:/opt/d-cache/srm/bin:/opt/d-cache/dcap/bin:/opt/edg/bin:/opt/glite/bin:/opt/globus/bin:/opt/lcg/bin:/usr/local/bin:/bin:/usr/bin:/opt/exp_soft/HADOOP/hadoop-1.0.3/bin:/opt/exp_soft/unina.it/intel/composerxe/bin/intel64/:/opt/exp_soft/unina.it/MPJExpress/mpj-v0_38/bin:/homes/DMA/PDC/2021/GRMCMN97S/bin
+------------------------------------------------------
+Job reserved node(s): 
+wn280.scope.unina.it
+wn280.scope.unina.it
+wn280.scope.unina.it
+wn280.scope.unina.it
+wn279.scope.unina.it
+wn279.scope.unina.it
+wn279.scope.unina.it
+wn279.scope.unina.it
+wn278.scope.unina.it
+wn278.scope.unina.it
+wn278.scope.unina.it
+wn278.scope.unina.it
+wn277.scope.unina.it
+wn277.scope.unina.it
+wn277.scope.unina.it
+wn277.scope.unina.it
+wn276.scope.unina.it
+wn276.scope.unina.it
+wn276.scope.unina.it
+wn276.scope.unina.it
+wn275.scope.unina.it
+wn275.scope.unina.it
+wn275.scope.unina.it
+wn275.scope.unina.it
+wn274.scope.unina.it
+wn274.scope.unina.it
+wn274.scope.unina.it
+wn274.scope.unina.it
+wn273.scope.unina.it
+wn273.scope.unina.it
+wn273.scope.unina.it
+wn273.scope.unina.it
+------------------------------------------------------
+------------------------------------------------------
+This job is allocated on 8 cpu(s)  on hosts: 
+wn273.scope.unina.it
+wn274.scope.unina.it
+wn275.scope.unina.it
+wn276.scope.unina.it
+wn277.scope.unina.it
+wn278.scope.unina.it
+wn279.scope.unina.it
+wn280.scope.unina.it
+------------------------------------------------------
+------------------------------------------------------
+Eseguo: /usr/lib64/openmpi/1.4-gcc/bin/mpicc -o /homes/DMA/PDC/2021/GRMCMN97S/Libreria3/libreria3 /homes/DMA/PDC/2021/GRMCMN97S/Libreria3/libreria3.c
+Eseguo: /usr/lib64/openmpi/1.4-gcc/bin/-machinefile hostlist -np 4 /homes/DMA/PDC/2021/GRMCMN97S/Libreria3/libreria3 8
+
+Matrice A:
+---~---~---~---~---~---~---~---~---~---~---~---~---~---
+1.00 2.00 3.00 4.00 5.00 6.00 7.00 8.00 
+9.00 10.00 11.00 12.00 13.00 14.00 15.00 16.00 
+17.00 18.00 19.00 20.00 21.00 22.00 23.00 24.00 
+25.00 26.00 27.00 28.00 29.00 30.00 31.00 32.00 
+33.00 34.00 35.00 36.00 37.00 38.00 39.00 40.00 
+41.00 42.00 43.00 44.00 45.00 46.00 47.00 48.00 
+49.00 50.00 51.00 52.00 53.00 54.00 55.00 56.00 
+57.00 58.00 59.00 60.00 61.00 62.00 63.00 64.00 
+---~---~---~---~---~---~---~---~---~---~---~---~---~---
+
+Matrice B:
+---~---~---~---~---~---~---~---~---~---~---~---~---~---
+2.00 3.00 4.00 5.00 6.00 7.00 8.00 9.00 
+10.00 11.00 12.00 13.00 14.00 15.00 16.00 17.00 
+18.00 19.00 20.00 21.00 22.00 23.00 24.00 25.00 
+26.00 27.00 28.00 29.00 30.00 31.00 32.00 33.00 
+34.00 35.00 36.00 37.00 38.00 39.00 40.00 41.00 
+42.00 43.00 44.00 45.00 46.00 47.00 48.00 49.00 
+50.00 51.00 52.00 53.00 54.00 55.00 56.00 57.00 
+58.00 59.00 60.00 61.00 62.00 63.00 64.00 65.00 
+---~---~---~---~---~---~---~---~---~---~---~---~---~---
+
+Matrice C (risultato prodotto scalare tra A e B):
+---~---~---~---~---~---~---~---~---~---~---~---~---~---
+1416.00 1452.00 1488.00 1524.00 1560.00 1596.00 1632.00 1668.00 
+3336.00 3436.00 3536.00 3636.00 3736.00 3836.00 3936.00 4036.00 
+5256.00 5420.00 5584.00 5748.00 5912.00 6076.00 6240.00 6404.00 
+7176.00 7404.00 7632.00 7860.00 8088.00 8316.00 8544.00 8772.00 
+9096.00 9388.00 9680.00 9972.00 10264.00 10556.00 10848.00 11140.00 
+11016.00 11372.00 11728.00 12084.00 12440.00 12796.00 13152.00 13508.00 
+12936.00 13356.00 13776.00 14196.00 14616.00 15036.00 15456.00 15876.00 
+14856.00 15340.00 15824.00 16308.00 16792.00 17276.00 17760.00 18244.00 
+---~---~---~---~---~---~---~---~---~---~---~---~---~---
+
+---~---~---~---~---~---~---~---~---~---
+Tempo algoritmo BMR: 0.000519 secondi
+Numero di processi: 4
+Dimensione matrice: 8
+---~---~---~---~---~---~---~---~---~---
+
+Termine esecuzione.
