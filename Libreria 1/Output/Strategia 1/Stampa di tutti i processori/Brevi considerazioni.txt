@@ -1,0 +1,4 @@
+Essendo nel caso della strategia 1, gli altri processori non conoscono il risultato finale.
+In questo caso, quindi, prima di procedere con la stampa del risultato, tutti i processori
+diversi da P0, che è il processore principale nel caso di ID=-1 e strategia=1,
+richiederanno l'informazione del totale della somma al processore P0.
